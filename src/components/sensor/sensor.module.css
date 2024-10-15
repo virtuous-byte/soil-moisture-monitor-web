@@ -1,0 +1,55 @@
+.sensor_root {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.sensor_bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url('/images/dirt.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sensor_content_root {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sensor_content_bg {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    z-index: -1;
+    background-image: url('/images/sensor.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.sensor_content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    flex-direction: column;
+    background-color: rgba(0, 255, 0, 0.75);
+    transform: translateY(100px);
+}
+
+.sensor_content p {
+    margin: 0;
+    padding: 0;
+}

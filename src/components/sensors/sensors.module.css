@@ -1,0 +1,6 @@
+.sensors {
+    margin: 20px;
+    display: grid;
+    flex: 1;
+    grid-template-columns: repeat(3, 1fr);
+}
